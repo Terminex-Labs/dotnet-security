@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <PackageId>Terminex.Security.Abstractions</PackageId>
+    <Version>1.0.0</Version>
+    <Description>Core abstractions, interfaces, and base types for Terminex.Security library. Provides foundational contracts for security implementations including authentication, cryptography, and SRP protocols.</Description>
+    <PackageTags>security;abstractions;interfaces;authentication;cryptography;srp;core;contracts</PackageTags>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Terminex.Security.Configuration\Terminex.Security.Configuration.csproj" />
+  </ItemGroup>
+
+</Project>

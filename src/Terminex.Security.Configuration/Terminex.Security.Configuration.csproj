@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <PackageId>Terminex.Security.Configuration</PackageId>
+    <Version>1.0.0</Version>
+    <Description>Cryptographic configuration constants and options for Terminex.Security libraries. 
+    Provides RFC 5054-compliant SRP parameters (3072-bit prime), AES-GCM settings, 
+    and PBKDF2 key derivation options with built-in validation, fluent builder API, 
+    and secure presets (Default, HighSecurity, Legacy). 
+    Ensures safe defaults and prevents misconfiguration of cryptographic operations.</Description>
+    <PackageTags>security;cryptography;configuration;srp;aes-gcm;pbkdf2;kdf;rfc5054;constants;options;builder</PackageTags>
+  </PropertyGroup>
+
+</Project>
