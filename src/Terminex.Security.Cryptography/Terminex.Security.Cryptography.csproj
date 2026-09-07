@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <PackageId>Terminex.Security.Cryptography</PackageId>
+    <Version>1.0.0</Version>
+    <Description>Cryptographic primitives and utilities for Terminex.Security. Includes secure hashing, encryption, key derivation functions (KDF), and cryptographic helpers with best practices implementation.</Description>
+    <PackageTags>security;cryptography;encryption;hashing;kdf;pbkdf2;argon2;bcrypt;key-derivation;crypto</PackageTags>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Terminex.Security.Abstraction\Terminex.Security.Abstraction.csproj" />
+    <ProjectReference Include="..\Terminex.Security.Configuration\Terminex.Security.Configuration.csproj" />
+    <ProjectReference Include="..\Terminex.Security.Utilities\Terminex.Security.Utilities.csproj" />
+  </ItemGroup>
+
+</Project>

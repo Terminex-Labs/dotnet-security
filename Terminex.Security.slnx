@@ -1,0 +1,10 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/Terminex.Security.Abstraction/Terminex.Security.Abstraction.csproj" />
+    <Project Path="src/Terminex.Security.Configuration/Terminex.Security.Configuration.csproj" />
+    <Project Path="src/Terminex.Security.Cryptography/Terminex.Security.Cryptography.csproj" />
+    <Project Path="src/Terminex.Security.Srp/Terminex.Security.Srp.csproj" />
+    <Project Path="src/Terminex.Security.Utilities/Terminex.Security.Utilities.csproj" />
+  </Folder>
+
+</Solution>

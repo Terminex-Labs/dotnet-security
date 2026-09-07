@@ -1,0 +1,37 @@
+<Project>
+  <PropertyGroup>
+    <TargetFramework Condition="'$(TargetFramework)' == ''">net10.0</TargetFramework>
+    
+    <LangVersion>latest</LangVersion>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <!-- <GenerateDocumentationFile>true</GenerateDocumentationFile> -->
+
+    <Authors>Semyon Pikin</Authors>
+    <Company>Terminex-Labs</Company>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    
+    <RepositoryType>git</RepositoryType>
+    <RepositoryUrl>https://github.com/Terminex-Labs/dotnet-security</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/Terminex-Labs/dotnet-security</PackageProjectUrl>
+    <PublishRepositoryUrl>true</PublishRepositoryUrl>
+    
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+    <IncludeSource>false</IncludeSource>
+    <EmbedUntrackedSources>true</EmbedUntrackedSources> 
+    
+    <Deterministic>true</Deterministic>
+    <ContinuousIntegrationBuild Condition="'$(CI)' == 'true'">true</ContinuousIntegrationBuild>
+  </PropertyGroup>
+
+  <ItemGroup Condition="'$(RepositoryType)' == 'git'">
+    <PackageReference Include="Microsoft.SourceLink.GitHub" Version="8.0.0" PrivateAssets="All" />
+  </ItemGroup>
+
+  <!-- <PropertyGroup Condition="$(TargetFramework.EndsWith('-windows'))">
+    <UseWindowsDesktopSdk>true</UseWindowsDesktopSdk>
+    <EnableWindowsTargeting>true</EnableWindowsTargeting>
+  </PropertyGroup> -->
+</Project>
