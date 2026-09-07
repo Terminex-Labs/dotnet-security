@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <PackageId>Terminex.Security.Configuration</PackageId>
-    <Version>1.0.0</Version>
+    <Version>0.1.0-beta.1</Version>
     <Description>Cryptographic configuration constants and options for Terminex.Security libraries. 
     Provides RFC 5054-compliant SRP parameters (3072-bit prime), AES-GCM settings, 
     and PBKDF2 key derivation options with built-in validation, fluent builder API, 
